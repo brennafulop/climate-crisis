@@ -1,3 +1,7 @@
+### Overview
+* [Live Website](https://zingy-sprite-1239c1.netlify.app/)
+* [GitHub Repo](https://github.com/brennafulop/climate-crisis)
+
 ### Description
 Our project is called “Cats for Climate Change”. We created a website for a fake non-profit 
 organization that informs people about the different wildcats threatened by climate change. The 
