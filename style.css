@@ -3,7 +3,6 @@
     margin: 0;
     font-size: 16px;
     font-style: normal;
-    font-optical-sizing: auto;
 }
 
 :root {
@@ -96,7 +95,6 @@
 
 body {
     font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
     min-width: 300px;
@@ -177,10 +175,11 @@ header button {
     margin: 0 10px 0 5px;
     box-shadow: none;
     z-index: 2;
-    &:hover {
-        background-color: var(--lgreen);
-        color: var(--brown);
-    }
+}
+
+header button:hover {
+    background-color: var(--lgreen);
+    color: var(--brown);
 }
 
 header ul {
@@ -190,9 +189,10 @@ header ul {
 
 header li {
     display: inline;
-    :hover {
-        text-decoration: underline;
-    }
+}
+
+header li:hover {
+    text-decoration: underline;
 }
 
 header span {
@@ -251,10 +251,8 @@ article .wrapper {
     flex-direction: row;
 }
 
-article:nth-child(2n) {
-    .wrapper {
-        flex-direction: row-reverse;
-    }
+article:nth-child(2n) .wrapper {
+    flex-direction: row-reverse;
 }
 
 article .wrapper:first-child {
@@ -310,9 +308,10 @@ article img {
     text-decoration: none;
     color: var(--gray);
     font-size: 65px;
-    &:hover {
-        background-color: var(--dgreen);
-    }
+}
+
+.scroll:hover {
+    background-color: var(--dgreen);
 }
 
 footer {
