@@ -15,6 +15,7 @@
     --white: #FFFFFF;
 }
 
+<<<<<<< HEAD
 @media(max-width: 450px) {
     header h1 {
         display: none;
@@ -31,6 +32,9 @@
     header h1 {
         font-size: 18px;
     }
+=======
+@media(max-width: 800px) {
+>>>>>>> michal-feature
     .scroll { 
         display: none;
     }
@@ -48,6 +52,7 @@
     article .wrapper {
         flex-wrap: wrap;
     }
+<<<<<<< HEAD
     header .wrapper {
         flex-direction: row !important;
     }
@@ -92,6 +97,8 @@
         padding: 0;
         overflow: hidden;
     }
+=======
+>>>>>>> michal-feature
 }
 
 body {
@@ -102,7 +109,10 @@ body {
     min-width: 300px;
     color: var(--brown);
     background-color: var(--gray);
+<<<<<<< HEAD
     margin: auto;
+=======
+>>>>>>> michal-feature
 }
 
 h1 {
@@ -278,7 +288,11 @@ article {
     border-radius: 5px;
     background-color: var(--white);
     border: 1px solid var(--brown);
+<<<<<<< HEAD
     margin: 0 10px 10px;
+=======
+    margin: 0 0 10px 0;
+>>>>>>> michal-feature
     padding: 10px;
     box-shadow: var(--gray) 3px 5px 5px;
 }
@@ -330,4 +344,8 @@ footer {
     color: var(--gray);
     padding: 10px 0;
     text-transform: uppercase;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> michal-feature
